@@ -1,0 +1,18 @@
+{
+  "auditLog": "/home/pikaqiang/Projects/syncthing_for_android/tools/host-syncthing/probe-home/audit-%{timestamp}.log",
+  "baseDir-config": "/home/pikaqiang/Projects/syncthing_for_android/tools/host-syncthing/probe-home",
+  "baseDir-data": "/home/pikaqiang/Projects/syncthing_for_android/tools/host-syncthing/probe-home",
+  "baseDir-userHome": "/home/pikaqiang",
+  "certFile": "/home/pikaqiang/Projects/syncthing_for_android/tools/host-syncthing/probe-home/cert.pem",
+  "config": "/home/pikaqiang/Projects/syncthing_for_android/tools/host-syncthing/probe-home/config.xml",
+  "database": "/home/pikaqiang/Projects/syncthing_for_android/tools/host-syncthing/probe-home/index-v2",
+  "defFolder": "/home/pikaqiang/Sync",
+  "guiAssets": "/home/pikaqiang/Projects/syncthing_for_android/tools/host-syncthing/probe-home/gui",
+  "httpsCertFile": "/home/pikaqiang/Projects/syncthing_for_android/tools/host-syncthing/probe-home/https-cert.pem",
+  "httpsKeyFile": "/home/pikaqiang/Projects/syncthing_for_android/tools/host-syncthing/probe-home/https-key.pem",
+  "keyFile": "/home/pikaqiang/Projects/syncthing_for_android/tools/host-syncthing/probe-home/key.pem",
+  "legacyDatabase": "/home/pikaqiang/Projects/syncthing_for_android/tools/host-syncthing/probe-home/index-v0.14.0.db",
+  "lockFile": "/home/pikaqiang/Projects/syncthing_for_android/tools/host-syncthing/probe-home/syncthing.lock",
+  "logFile": "-",
+  "panicLog": "/home/pikaqiang/Projects/syncthing_for_android/tools/host-syncthing/probe-home/panic-%{timestamp}.log"
+}

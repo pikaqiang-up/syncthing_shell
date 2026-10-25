@@ -1,0 +1,23 @@
+{
+  "deviceID": "",
+  "name": "",
+  "addresses": [
+    "dynamic"
+  ],
+  "compression": "metadata",
+  "certName": "",
+  "introducer": false,
+  "skipIntroductionRemovals": false,
+  "introducedBy": "",
+  "paused": false,
+  "allowedNetworks": [],
+  "autoAcceptFolders": false,
+  "maxSendKbps": 0,
+  "maxRecvKbps": 0,
+  "ignoredFolders": [],
+  "maxRequestKiB": 0,
+  "untrusted": false,
+  "remoteGUIPort": 0,
+  "numConnections": 0,
+  "group": ""
+}

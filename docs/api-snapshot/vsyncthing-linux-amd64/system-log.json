@@ -1,0 +1,84 @@
+{
+  "messages": [
+    {
+      "level": "INF",
+      "message": "syncthing v2.1.7 \"Hafnium Hornet\" (go1.27.3-X:nodwarf5 linux-amd64) unknown@unknown 1970-01-01 00:00:00 UTC [modernc-sqlite, stnoupgrade] (log.pkg=main)",
+      "when": "2026-10-25T15:18:35.093935139+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "Calculated our device ID (device=VEKNQXD-BAC5GVZ-3DNNZCP-MQWB4IV-34FMEFF-CBQDQ4W-BACXYEM-CYWTEA6 log.pkg=syncthing)",
+      "when": "2026-10-25T15:18:35.158688436+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "Overall rate limit in use (send=\"is unlimited\" recv=\"is unlimited\" log.pkg=connections)",
+      "when": "2026-10-25T15:18:35.159880891+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "Using discovery mechanism (identity=\"global discovery server https://discovery-lookup.syncthing.net/v2/?noannounce\" log.pkg=discover)",
+      "when": "2026-10-25T15:18:35.160090957+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "Using discovery mechanism (identity=\"global discovery server https://discovery-announce-v4.syncthing.net/v2/?nolookup\" log.pkg=discover)",
+      "when": "2026-10-25T15:18:35.160111305+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "Using discovery mechanism (identity=\"global discovery server https://discovery-announce-v6.syncthing.net/v2/?nolookup\" log.pkg=discover)",
+      "when": "2026-10-25T15:18:35.160131664+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "Using discovery mechanism (identity=\"IPv4 local broadcast discovery on port 21027\" log.pkg=discover)",
+      "when": "2026-10-25T15:18:35.160188871+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "Using discovery mechanism (identity=\"IPv6 local multicast discovery on address [ff12::8384]:21027\" log.pkg=discover)",
+      "when": "2026-10-25T15:18:35.160209951+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "Relay listener starting (id=dynamic+https://relays.syncthing.net/endpoint log.pkg=connections)",
+      "when": "2026-10-25T15:18:35.160228676+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "Creating new HTTPS certificate (log.pkg=api)",
+      "when": "2026-10-25T15:18:35.160496892+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "QUIC listener starting (address=\"[::]:22000\" log.pkg=connections)",
+      "when": "2026-10-25T15:18:35.161187703+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "TCP listener starting (address=\"[::]:22000\" log.pkg=connections)",
+      "when": "2026-10-25T15:18:35.161227828+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "GUI and API listening (address=127.0.0.1:18384 log.pkg=api)",
+      "when": "2026-10-25T15:18:35.161828409+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "Access the GUI via the following URL: http://127.0.0.1:18384/ (log.pkg=api)",
+      "when": "2026-10-25T15:18:35.16184979+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "Loaded configuration (name=EndMachine log.pkg=syncthing)",
+      "when": "2026-10-25T15:18:35.161881129+08:00"
+    },
+    {
+      "level": "INF",
+      "message": "Measured hashing performance (perf=\"1070.34 MB/s\" log.pkg=syncthing)",
+      "when": "2026-10-25T15:18:35.61728082+08:00"
+    }
+  ]
+}

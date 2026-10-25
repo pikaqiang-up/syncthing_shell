@@ -1,0 +1,19 @@
+{
+  "arch": "amd64",
+  "codename": "Hafnium Hornet",
+  "container": false,
+  "date": "1970-01-01T08:00:00+08:00",
+  "extra": "",
+  "isBeta": false,
+  "isCandidate": false,
+  "isRelease": true,
+  "longVersion": "syncthing v2.1.7 \"Hafnium Hornet\" (go1.27.3-X:nodwarf5 linux-amd64) unknown@unknown 1970-01-01 00:00:00 UTC [modernc-sqlite, stnoupgrade]",
+  "os": "linux",
+  "stamp": "0",
+  "tags": [
+    "modernc-sqlite",
+    "stnoupgrade"
+  ],
+  "user": "unknown",
+  "version": "v2.1.7"
+}

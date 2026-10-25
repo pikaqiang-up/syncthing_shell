@@ -1,0 +1,66 @@
+{
+  "alloc": 4478080,
+  "connectionServiceStatus": {
+    "dynamic+https://relays.syncthing.net/endpoint": {
+      "error": null,
+      "lanAddresses": [],
+      "wanAddresses": []
+    },
+    "quic://0.0.0.0:22000": {
+      "error": null,
+      "lanAddresses": [
+        "quic://0.0.0.0:22000",
+        "quic://192.168.221.143:22000"
+      ],
+      "wanAddresses": [
+        "quic://0.0.0.0:22000"
+      ]
+    },
+    "tcp://0.0.0.0:22000": {
+      "error": null,
+      "lanAddresses": [
+        "tcp://0.0.0.0:22000",
+        "tcp://192.168.221.143:22000"
+      ],
+      "wanAddresses": [
+        "tcp://0.0.0.0:0",
+        "tcp://0.0.0.0:22000"
+      ]
+    }
+  },
+  "cpuPercent": 0,
+  "discoveryEnabled": true,
+  "discoveryErrors": {
+    "global@https://discovery-announce-v4.syncthing.net/v2/": "not announced",
+    "global@https://discovery-announce-v6.syncthing.net/v2/": "not announced"
+  },
+  "discoveryMethods": 5,
+  "discoveryStatus": {
+    "IPv4 local": {
+      "error": null
+    },
+    "IPv6 local": {
+      "error": null
+    },
+    "global@https://discovery-announce-v4.syncthing.net/v2/": {
+      "error": "not announced"
+    },
+    "global@https://discovery-announce-v6.syncthing.net/v2/": {
+      "error": "not announced"
+    },
+    "global@https://discovery-lookup.syncthing.net/v2/": {
+      "error": null
+    }
+  },
+  "goroutines": 83,
+  "guiAddressOverridden": true,
+  "guiAddressUsed": "127.0.0.1:18384",
+  "lastDialStatus": {},
+  "myID": "VEKNQXD-BAC5GVZ-3DNNZCP-MQWB4IV-34FMEFF-CBQDQ4W-BACXYEM-CYWTEA6",
+  "pathSeparator": "/",
+  "startTime": "2026-10-25T15:18:35+08:00",
+  "sys": 23533832,
+  "tilde": "/home/pikaqiang",
+  "uptime": 1,
+  "urVersionMax": 3
+}

@@ -1,0 +1,38 @@
+{
+  "version": "v2.1.7",
+  "longVersion": "syncthing v2.1.7 \"Hafnium Hornet\" (go1.27.3-X:nodwarf5 linux-amd64) unknown@unknown 1970-01-01 00:00:00 UTC [modernc-sqlite, stnoupgrade]",
+  "platform": "linux-amd64",
+  "numDevices": 1,
+  "memoryUsageMiB": 22,
+  "sha256Perf": 1072.56,
+  "hashPerf": 1072.56,
+  "memorySize": 15184,
+  "processRSSMiB": 47,
+  "urVersion": 3,
+  "numCPU": 32,
+  "deviceUses": {
+    "compressMetadata": 1,
+    "dynamicAddr": 1
+  },
+  "announce": {
+    "globalEnabled": true,
+    "localEnabled": true,
+    "defaultServersDNS": 1
+  },
+  "relays": {
+    "enabled": true,
+    "defaultServers": 1
+  },
+  "uptime": 2,
+  "natType": "unknown",
+  "progressEmitterEnabled": true,
+  "customDefaultFolderPath": true,
+  "folderUsesV3": {},
+  "guiStats": {
+    "enabled": 1,
+    "listenLocal": 1,
+    "theme": {
+      "default": 1
+    }
+  }
+}

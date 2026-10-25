@@ -1,0 +1,4 @@
+内嵌二进制：syncthing 2.1.7（Termux 官方包构建）
+来源：Termux 主仓库 termux-main（sha256 与官方索引核对）
+  构建方式：GOOS=android + NDK clang（bionic PIE，16K 对齐，[noupgrade]）
+升级脚本：scripts/update_syncthing.sh

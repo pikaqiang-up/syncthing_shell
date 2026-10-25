@@ -1,0 +1,32 @@
+# ===== 工作区工具配置 =====
+.zcode/
+
+# ===== IDE =====
+.idea/
+.vscode/
+
+# ===== 构建产物 =====
+build/
+.dart_tool/
+.packages
+.flutter-plugins*
+*.iml
+.kotlin/
+local.properties
+android/.gradle/
+android/app/debug/
+android/app/profile/
+android/app/release/
+*.log
+.DS_Store
+
+# ===== 内嵌 syncthing 二进制（35MB，非源码，不入库）=====
+# 克隆后先运行 scripts/update_syncthing.sh 获取并安装到 jniLibs 再构建
+android/app/src/main/jniLibs/
+third_party/syncthing/*.tar.gz
+third_party/syncthing/src/
+third_party/syncthing/build/
+third_party/syncthing/prebuilt/
+tools/host-syncthing/
+
+# 保留入库的文本：BINARY.txt / sha256sum.txt.asc（官方校验清单）

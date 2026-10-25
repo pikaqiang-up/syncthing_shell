@@ -1,0 +1,62 @@
+{
+  "id": "",
+  "label": "",
+  "filesystemType": "basic",
+  "path": "",
+  "type": "sendreceive",
+  "devices": [
+    {
+      "deviceID": "VEKNQXD-BAC5GVZ-3DNNZCP-MQWB4IV-34FMEFF-CBQDQ4W-BACXYEM-CYWTEA6",
+      "introducedBy": "",
+      "encryptionPassword": ""
+    }
+  ],
+  "group": "",
+  "rescanIntervalS": 3600,
+  "fsWatcherEnabled": true,
+  "fsWatcherDelayS": 10,
+  "fsWatcherTimeoutS": 0,
+  "ignorePerms": false,
+  "autoNormalize": true,
+  "minDiskFree": {
+    "value": 1,
+    "unit": "%"
+  },
+  "versioning": {
+    "type": "",
+    "params": {},
+    "cleanupIntervalS": 3600,
+    "fsPath": "",
+    "fsType": "basic"
+  },
+  "copiers": 0,
+  "pullerMaxPendingKiB": 0,
+  "hashers": 0,
+  "order": "random",
+  "ignoreDelete": false,
+  "scanProgressIntervalS": 0,
+  "pullerPauseS": 0,
+  "pullerDelayS": 1,
+  "maxConflicts": 10,
+  "disableSparseFiles": false,
+  "paused": false,
+  "markerName": ".stfolder",
+  "copyOwnershipFromParent": false,
+  "modTimeWindowS": 0,
+  "maxConcurrentWrites": 16,
+  "disableFsync": false,
+  "blockPullOrder": "standard",
+  "copyRangeMethod": "standard",
+  "caseSensitiveFS": false,
+  "junctionsAsDirs": false,
+  "syncOwnership": false,
+  "sendOwnership": false,
+  "syncXattrs": false,
+  "sendXattrs": false,
+  "blockIndexing": true,
+  "xattrFilter": {
+    "entries": [],
+    "maxSingleEntrySize": 1024,
+    "maxTotalSize": 4096
+  }
+}

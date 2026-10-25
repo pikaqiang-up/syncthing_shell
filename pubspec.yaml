@@ -1,0 +1,30 @@
+name: syncthing_flutter
+description: "Syncthing 的 Flutter 原生壳：内嵌 syncthing 二进制，REST API 驱动的 MD3 界面。"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.1.2
+  http: ^1.2.2
+  dynamic_color: ^1.7.0
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^7.4.2
+  shared_preferences: ^2.3.2
+  collection: ^1.19.0
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
