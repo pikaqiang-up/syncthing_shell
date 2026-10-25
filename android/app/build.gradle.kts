@@ -10,6 +10,11 @@ android {
     compileSdk = flutter.compileSdkVersion
     ndkVersion = flutter.ndkVersion
 
+    // 目标 ABI（单一事实源，defaultConfig 与 packaging 共用）：
+    // 发布仅 arm64-v8a；模拟器调试用 -PtargetAbi=arm64-v8a,x86_64
+    val targetAbiList = ((project.findProperty("targetAbi") as? String) ?: "arm64-v8a")
+        .split(",").map { it.trim() }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
@@ -22,13 +27,8 @@ android {
         versionCode = flutter.versionCode
         versionName = flutter.versionName
 
-        // Syncthing 二进制以 jniLibs 形式打包（libsyncthing.so），运行时直接从
-        // nativeLibraryDir 执行（Android 10+ W^X 限制下唯一可靠的执行路径）。
-        // 目标平台 arm64-v8a。如需模拟器 x86_64 调试包：
-        //   flutter build apk -PtargetAbi=arm64-v8a,x86_64 --release
-        val targetAbi = (project.findProperty("targetAbi") as? String) ?: "arm64-v8a"
         ndk {
-            abiFilters += targetAbi.split(",").map { it.trim() }
+            abiFilters += targetAbiList
         }
     }
 
@@ -37,6 +37,13 @@ android {
             // 必须解压（传统打包）：安装时把 libsyncthing.so 释放到 nativeLibraryDir，
             // 变成真实可执行文件（APK 内嵌的 .so 无法被 exec）。
             useLegacyPackaging = true
+            // 最小化：插件 AAR（ML Kit 扫码/camera-x 等）自带多 ABI .so，
+            // ndk.abiFilters 不传导到 AAR，需在此按 ABI 精确剔除非目标架构。
+            val keep = targetAbiList
+            val all = listOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
+            excludes += all.filter { it !in keep }.flatMap { abi ->
+                listOf("**/lib/$abi/**", "**/$abi/**")
+            }
         }
     }
 
